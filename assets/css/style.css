@@ -49,12 +49,12 @@
   /* font-size */
   --fs-1: 24px;
   --fs-2: 18px;
-  --fs-3: 22px;
+  --fs-3: 16px;
   --fs-4: 16px;
   --fs-5: 15px;
   --fs-6: 14px;
   --fs-7: 13px;
-  --fs-8: 22px;
+  --fs-8: 10px;
 
   /* font-weight */
   --fw-300: 400;
@@ -62,8 +62,8 @@
   --fw-500: 500;
   --fw-600: 600;
 
-  /**
-   * shadow
+
+ /* shadow
    */
   
   --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
@@ -300,8 +300,7 @@ main {
   color: var(--white-1);
   background: var(--onyx);
   font-size: var(--fs-8);
-  font-weight: var(--fw-300);
-  width: max-content;
+ 
   padding: 3px 12px;
   border-radius: 8px;
 }
@@ -1212,7 +1211,8 @@ textarea.form-input::-webkit-resizer { display: none; }
  * responsive larger than 580px screen
  */
 
-@media (min-width: 580px) {
+
+@media (min-width: 568px) {
 
   /**
    * CUSTOM PROPERTY
@@ -1226,11 +1226,11 @@ textarea.form-input::-webkit-resizer { display: none; }
 
     --fs-1: 32px;
     --fs-2: 24px;
-    --fs-3: 26px;
+    --fs-3: 22px;
     --fs-4: 18px;
     --fs-6: 15px;
     --fs-7: 15px;
-    --fs-8: 12px;
+    --fs-8: 16px;
 
   }
 
