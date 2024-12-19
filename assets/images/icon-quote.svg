@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="800" height="600">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#000"  fill-opacity="0" stroke= "#8d50d3" stroke-width= "6"/>
+
+  <!-- Axes -->
+  <line x1="30" y1="10" x2="30" y2="140" stroke="#aaa" stroke-width="2" />
+  <line x1="30" y1="140" x2="190" y2="140" stroke="#aaa" stroke-width="2" />
+
+  <!-- Grid lines -->
+  <line x1="30" y1="40" x2="190" y2="40" stroke="#ddd" stroke-width="1" />
+  <line x1="30" y1="80" x2="190" y2="80" stroke="#ddd" stroke-width="1" />
+  <line x1="30" y1="120" x2="190" y2="120" stroke="#ddd" stroke-width="1" />
+
+  <!-- Data line -->
+  <polyline 
+    points="30,120 70,100 110,60 150,40 190,50" 
+    fill="none" 
+    stroke="#8d50d3" 
+    stroke-width="3" 
+    stroke-linejoin="round" 
+    stroke-linecap="round" />
+
+  <!-- Data points -->
+  <circle cx="30" cy="120" r="9" fill="#8d50d3" />
+  <circle cx="70" cy="100" r="9" fill="#8d50d3" />
+  <circle cx="110" cy="60" r="9" fill="#8d50d3" />
+  <circle cx="150" cy="40" r="9" fill="#8d50d3" />
+  <circle cx="190" cy="50" r="9" fill="#8d50d3" />
+
+  <!-- Labels -->
+  <text x="20" y="145" fill="#333" font-size="10" font-family="Arial">0</text>
+  <text x="65" y="145" fill="#333" font-size="10" font-family="Arial">1</text>
+  <text x="105" y="145" fill="#333" font-size="10" font-family="Arial">2</text>
+  <text x="145" y="145" fill="#333" font-size="10" font-family="Arial">3</text>
+  <text x="185" y="145" fill="#333" font-size="10" font-family="Arial">4</text>
+
+  <text x="10" y="125" fill="#333" font-size="10" font-family="Arial">10</text>
+  <text x="10" y="85" fill="#333" font-size="10" font-family="Arial">20</text>
+  <text x="10" y="45" fill="#333" font-size="10" font-family="Arial">30</text>
+  <text x="10" y="15" fill="#333" font-size="10" font-family="Arial">40</text>
+</svg>
